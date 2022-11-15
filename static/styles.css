@@ -1,0 +1,60 @@
+/* geral */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: goldenrod;
+    border:none;
+    background-color: black;
+}
+
+body {
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline:none;
+}
+
+a, label{
+    font-size:.8rem;
+}
+
+a:hover{
+    color: black;
+}
+
+#login-container{
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px 30px;
+    margin-top: 30vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
