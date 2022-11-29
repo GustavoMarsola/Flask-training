@@ -21,4 +21,4 @@ def initial_page():
     return render_template('initial_page.html')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug = True)
