@@ -9,8 +9,11 @@ class Database:
     def compare(self, email,password):
         locate = self.db.search(self.user.email == email)
         if len(locate) == 0:
-            return "Email não cadastrado"
+            print("Email não cadastrado")
+            return False
         senha = locate[0]['senha']
         if senha != password:
-            return "Senha incorreta"
-        return senha
+            print("Senha incorreta")
+            return False
+        print("Login efetuado com sucesso")
+        return True
