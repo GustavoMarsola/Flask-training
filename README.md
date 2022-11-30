@@ -1,2 +1,2 @@
 # Flask-training
-This is a repository I created to practice the python flask framework
+Repositório criado para treinar desenvolvimento back end com framework Flask, do Python.
