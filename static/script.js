@@ -1,4 +1,4 @@
-function Toggle() {
+function showPassword() {
     var temp = document.getElementById("password");
     if (temp.type === "password") {
         temp.type = "text";
